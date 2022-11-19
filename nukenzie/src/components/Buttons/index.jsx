@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ButtonsMain = ({ lists, setFiltered, filtered }) => {
+const ButtonsMain = ({ lists, setFiltered }) => {
   const [check, setCheck] = useState(true);
   const [checkEntry, setEntry] = useState(false);
   const [checkDespes, setDespes] = useState(false);
