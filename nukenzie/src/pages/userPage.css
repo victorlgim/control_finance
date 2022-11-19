@@ -1,0 +1,637 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+input {
+  outline: none;
+}
+
+body {
+  background-color: #fff;
+  /* overflow-x: hidden; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topHeaderMain {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttonsMain {
+  display: flex;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.allButtons {
+  width: 69px;
+  height: 35px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #343a40;
+  cursor: pointer;
+}
+
+.allButtons:hover {
+  filter: brightness(0.9);
+}
+
+.entryButtons {
+  width: 87px;
+  height: 35px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #343a40;
+  cursor: pointer;
+}
+
+.entryButtons:hover {
+  filter: brightness(0.9);
+}
+
+.exitButtons {
+  width: 92px;
+  height: 35px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #343a40;
+  cursor: pointer;
+}
+
+.exitButtons:hover {
+  filter: brightness(0.9);
+}
+
+.check {
+  background: #fd377e;
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+
+.ulRenderWallet {
+  display: flex;
+  flex-direction: column;
+  margin-top: 31px;
+  gap: 23px;
+}
+
+.liRenderWallet {
+  width: 100%;
+  height: 87px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divFirstLi {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.titleFirstLi {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+.spanFirstLi {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #343a40;
+  display: block;
+}
+
+.divSecondLi {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+  gap: 30px;
+}
+
+.priceSecondLi {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+  display: block;
+}
+
+.btnTrashImage {
+  background: #e9ecef;
+  border-radius: 2.46154px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container-principal {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.flex-wallet-two {
+  margin-bottom: 50px;
+}
+
+.flex-wallet {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.flex-wallet-full {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.header {
+  background: #f8f9fa;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  height: 80px;
+  display: flex;
+  width: 370px;
+  align-items: center;
+}
+
+.container-header {
+  margin: 0 auto;
+  width: 70%;
+  min-width: 320px;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-header {
+  font-size: 30px;
+}
+
+.strong-class {
+  color: #fd377e;
+}
+
+.btn-back {
+  width: 64px;
+  height: 40px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  filter: brightness(0.9);
+}
+
+.divPrincipalWallet {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.divWallet {
+  width: 330px;
+  margin: 0 auto;
+  height: 351px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.containerWallet {
+  width: 310px;
+  margin: 0 auto;
+}
+
+.formWallet {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.descript {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  color: #212529;
+  margin-bottom: 12px;
+}
+
+.symbol {
+  background: #f8f9fa;
+  margin-top: -52px;
+  display: flex;
+  width: 50px;
+  height: 45px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  font-weight: 400;
+}
+
+.descriptWalletInput {
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  width: 305px;
+  height: 52px;
+  padding-left: 15px;
+}
+
+.smallInput {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
+  margin-top: 5px;
+}
+
+.divFullWallet {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.divValueWallet {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+  margin-bottom: 5px;
+}
+
+.typeValue {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+  margin-bottom: 5px;
+}
+
+.inputValueWallet {
+  width: 140px;
+  height: 48px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+
+.divTypeValueWallet {
+  display: flex;
+  flex-direction: column;
+}
+
+.entryTypeValue {
+  width: 135px;
+  height: 48px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.btnInsertValue {
+  width: 100%;
+  height: 48px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btnInsertValue:hover {
+  filter: brightness(0.9);
+}
+
+select {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #343a40;
+  cursor: pointer;
+}
+
+.renderNull {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+}
+
+.noTitle {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 5px;
+  color: #343a40;
+  margin-bottom: 28px;
+}
+
+.noCard {
+  margin-bottom: 30px;
+  min-width: 30px;
+  width: 320px;
+}
+
+.divWalletBottom {
+  width: 340px;
+  margin: 0 auto;
+  height: 96px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.divWalletContainerBottom {
+  margin: 0 auto;
+  width: 310px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divColumnBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-bottom {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.description-bottom {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #343a40;
+}
+
+.priceBottom {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 375px) {
+  .container-principal {
+    width: 330px;
+  }
+
+  .header {
+    width: 375px;
+  }
+}
+
+@media (min-width: 425px) {
+  .header {
+    width: 100vw;
+  }
+
+  .container-header {
+    width: 380px;
+  }
+
+  .divWallet {
+    width: 360px;
+  }
+
+  .container-principal {
+    width: 355px;
+  }
+
+  .noCard {
+    width: 350px;
+  }
+
+  .descriptWalletInput {
+    width: 310px;
+  }
+
+  .entryTypeValue {
+    width: 140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-principal {
+    width: 700px;
+  }
+
+  .flex-wallet-full {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .container-header {
+    width: 680px;
+  }
+
+  .divWallet {
+    width: 330px;
+  }
+
+  .descriptWalletInput {
+    width: 290px;
+    height: 45px;
+    margin-left: 10px;
+  }
+
+  .smallInput {
+    margin-left: 10px;
+  }
+
+  .descript {
+    margin-left: 10px;
+  }
+
+  .value {
+    margin-left: 10px;
+  }
+
+  .inputValueWallet {
+    margin-left: 10px;
+  }
+
+  .entryTypeValue {
+    width: 120px;
+  }
+
+  .btnInsertValue {
+    margin-left: 10px;
+    width: 94%;
+  }
+
+  .flex-wallet-full {
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+
+  .flex-wallet-two {
+    width: 340px;
+  }
+
+  .noCard {
+    width: 330px;
+  }
+
+  .liRenderWallet {
+    height: 90px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .topHeaderMain {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-principal {
+    width: 900px;
+  }
+
+  .flex-wallet-full {
+    gap: 70px;
+  }
+
+  .divWallet {
+    width: 370px;
+  }
+
+  .descript {
+    margin-left: -5px;
+  }
+
+  .descriptWalletInput {
+    margin-left: -5px;
+    width: 320px;
+  }
+
+  .smallInput {
+    margin-left: -5px;
+  }
+
+  .divValueWallet {
+    margin-left: -15px;
+  }
+
+  .entryTypeValue {
+    width: 150px;
+  }
+
+  .btnInsertValue {
+    width: 320px;
+    margin-left: -6px;
+  }
+
+  .symbol {
+    margin-left: 100px;
+  }
+
+  .flex-wallet-two {
+    width: 500px;
+  }
+
+  .noTitle {
+    font-size: 19px;
+  }
+
+  .noCard {
+    width: 470px;
+  }
+
+  .liRenderWallet {
+    width: 480px;
+  }
+
+  .container-header {
+    width: 900px;
+  }
+}
