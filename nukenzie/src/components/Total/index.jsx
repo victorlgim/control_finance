@@ -1,4 +1,4 @@
-const WalletBottom = ({ list }) => {
+const Total = ({ list }) => {
   return (
     <div className="divWalletBottom">
       <div className="divWalletContainerBottom">
@@ -19,4 +19,4 @@ const WalletBottom = ({ list }) => {
   );
 };
 
-export default WalletBottom;
+export default Total;

@@ -10,7 +10,7 @@ import "./userPage.css";
 const UserPage = ({ setState }) => {
   const [users, setUsers] = useState([]);
   const [filtered, setFiltered] = useState(users);
-  console.log(users);
+
   return (
     <>
       <Header setState={setState} />

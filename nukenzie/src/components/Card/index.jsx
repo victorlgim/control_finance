@@ -1,4 +1,4 @@
-const Render = ({
+const Card = ({
   description,
   type,
   price,
@@ -14,7 +14,7 @@ const Render = ({
         return e.currentTarget.id !== transations.title;
       })
     );
-    console.log(e.currentTarget.id);
+
     setFiltered(
       filtered.filter(transations => e.currentTarget.id !== transations.title)
     );
@@ -40,4 +40,4 @@ const Render = ({
   );
 };
 
-export default Render;
+export default Card;
