@@ -1,9 +1,51 @@
-# Control Finance
+# Finity
 
-Sistema de controle financeiro criado em React JS com responsividade.
+<img src="a.png" alt="Finity">
 
-https://nukenzie-three-chi.vercel.app/
+> Um design simples de um sistema de controle financeiro.
 
-https://user-images.githubusercontent.com/109770689/205464744-6b33bcfb-0f61-4ea3-97e0-6a5e21b10aad.mp4
+---
+
+### 📌 Tecnologias/Ferramentas Utilizadas
+
+- **Illustrator** – Para criação dos vetores 
+- **React** – Framework de UI 
+
+---
+
+## 🚀 Instalando e Rodando o Finity
+
+Para instalar e executar o **Finity** na sua máquina, siga estas etapas:
+
+### 🔹 1. Clone o Repositório
+
+```
+git clone https://github.com/victorlgim/finity.git
+```
+```
+cd finity
+```
+
+### 🔹 2. Instale as Dependências
+
+```
+npm install
+```
+
+### 🔹 3. Rode o Servidor de Desenvolvimento
+
+```
+npm run dev
+```
+
+A aplicação estará disponível em **http://localhost:3000**.
+
+---
+
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+
 
 
