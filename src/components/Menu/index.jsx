@@ -4,7 +4,7 @@ const Menu = ({ setState }) => {
   return (
     <div className="divMenu">
       <h1 className="title">
-        <strong className="pink-title">Nu </strong>Kenzie
+        <strong className="pink-title">F </strong>inity
       </h1>
       <p className="description">Centralize o controle das suas finanças</p>
       <small className="small">de forma rápida e segura</small>
