@@ -4,22 +4,22 @@ https://finity-lake.vercel.app/
 
 <img src="layout.png" alt="Finity">
 
-> Um design simples de um sistema de controle financeiro.
+> A simple design for a financial control system.
 
 ---
 
-### 📌 Tecnologias/Ferramentas Utilizadas
+### 📌 Technologies/Tools Used
 
-- **Illustrator** – Para criação dos vetores 
-- **React** – Framework de UI 
+- **Illustrator** – For vector creation
+- **React** – UI framework
 
 ---
 
-## 🚀 Instalando e Rodando o Finity
+## 🚀 Installing and Running Finity
 
-Para instalar e executar o **Finity** na sua máquina, siga estas etapas:
+To install and run **Finity** on your machine, follow these steps:
 
-### 🔹 1. Clone o Repositório
+### 🔹 1. Clone the Repository
 
 ```
 git clone https://github.com/victorlgim/finity.git
@@ -28,26 +28,23 @@ git clone https://github.com/victorlgim/finity.git
 cd finity
 ```
 
-### 🔹 2. Instale as Dependências
+### 🔹 2. Install Dependencies
 
 ```
 npm install
 ```
 
-### 🔹 3. Rode o Servidor de Desenvolvimento
+### 🔹 3. Start the Development Server
 
 ```
 npm run dev
 ```
 
-A aplicação estará disponível em **http://localhost:3000**.
+The application will be available at **http://localhost:3000**.
 
 ---
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob licença. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
-
-
+This project is licensed. See the [LICENSE](LICENSE.md) file for more details.
 
